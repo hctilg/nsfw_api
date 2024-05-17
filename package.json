@@ -1,0 +1,32 @@
+{
+  "name": "nsfw_api",
+  "version": "1.0.0",
+  "description": "NSFW detection on API",
+  "main": "index.js",
+  "scripts": {
+    "serv": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hctilg/nsfw_api.git"
+  },
+  "keywords": [
+    "nsfw",
+    "node",
+    "api"
+  ],
+  "author": "hctilg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hctilg/nsfw_api/issues"
+  },
+  "homepage": "https://github.com/hctilg/nsfw_api#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.19.0",
+    "multer": "^1.4.5-lts.1",
+    "express": "^4.19.2",
+    "jpeg-js": "^0.4.4",
+    "nsfwjs": "^4.1.0"
+  }
+}
