@@ -18,7 +18,7 @@ curl -X POST localhost:8080 -H 'Content-Type: multipart/form-data' -F 'image=@fu
 
 ```bash
 ┌──(user@system)-[~/…/nsfw_api]
-└─$ curl -X POST localhost:8080 -H 'Content-Type: multipart/form-data' -F 'image=@femboy.jpg'
+└─$ curl -X POST localhost:8080 -H 'Content-Type: multipart/form-data' -F 'image=@goth.jpg'
 
 {
   "ok": true,
